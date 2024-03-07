@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import AddForm from "../components/AddForm";
 import Table from "../components/Table";
-import '/Users/anshukumar/Documents/RedPositiveTask/frontend/app/globals.css';
+import '../app/globals.css';
 
 export default function Home() {
   const [data, setData] = useState([]);
