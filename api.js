@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiUrl = process.env.BASE_URL || "http://localhost:5006";
-// const apiUrl = `http://localhost:${process.env.PORT || 5005}`;
+//const apiUrl = process.env.BASE_URL || "http://localhost:5006";
+const apiUrl = `https://redpositivetaskbackend.onrender.com`;
 
 export const getAllData = async () => {
   try {
